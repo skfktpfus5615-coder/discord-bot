@@ -1,3 +1,13 @@
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Bot is running");
+});
+
+app.listen(3000, () => {
+  console.log("Web server started");
+});
 const { Client, GatewayIntentBits } = require("discord.js");
 const { QuickDB } = require("quick.db");
 
@@ -191,5 +201,6 @@ message.reply(`💀 도박 실패!\n${bet}🧀 잃음`);
 
 }
 });
+
 
 client.login("MTQ4MDgxNTQ2MDcwMTE3OTk0NQ.G-XoWV.wzAR2UZFI5Gc1yoAl4fPOkeaVjSqG8VaXj-ydE");
