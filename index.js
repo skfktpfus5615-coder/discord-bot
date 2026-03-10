@@ -203,5 +203,6 @@ message.reply(`💀 도박 실패!\n${bet}🧀 잃음`);
 });
 
 
-client.login(process.env.MTQ4MDgxNTQ2MDcwMTE3OTk0NQ.Gr645K._Y-F0Ij3rLhQCWO3gLjkexyElVho9MCGak33Pw);
+client.login(process.env.TOKEN);
+
 
